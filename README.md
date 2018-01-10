@@ -15,7 +15,7 @@ This repository contains all my code for the
     </th>
     <th width="35%" height="35%">
     	<p align="center">
-          <a href="P2_traffic_sign_classifier"><img src="P2_traffic_sign_classifier/writeup/signs.gif" alt="Overview" width="75%" height="75%"></a>
+          <a href="P2_traffic_sign_classifier"><img src="P2_traffic_sign_classifier/writeup/signs.gif" alt="Overview" width="50%" height="50%"></a>
            <br>P2: Traffic Signs
       </p>
     </th>
