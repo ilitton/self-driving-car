@@ -64,5 +64,5 @@ This repository contains all my code for the
  - **Summary:** Created vehicle detection pipeline with histogram of oriented gradients (HOG) feature extraction and linear support vector machine (SVM) classifiers
  - **Keywords:** Computer Vision, OpenCV
 
--
+---
 Major thanks to [Andrea Palazzi](https://github.com/ndrplz) for letting me use his awesome README format! :)
