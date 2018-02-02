@@ -184,7 +184,7 @@ YOLO reframes the object detection problem as a regression problem where the mod
 The Tiny YOLO with Keras will have the following architecture: 
 
 | Layer        | Depth           | Kernel Size | Stride Size  | Activation | Pooling
-| :------------- |:-------------| :-----| :-- | :-- | :-- | :-- |
+|:------------|:-----------------|:------------|:-------------|:-----------|:-------
 | Input (448x448x3)     |  |  |
 | Convolutional | 16 | 3x3| 1x1| LeakyReLU| (2,2), `same`
 | Convolutional | 32| 3x3| 1x1| LeakyReLU| (2,2), `same`

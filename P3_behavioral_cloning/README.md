@@ -73,22 +73,22 @@ The model used an Adam optimizer, so the learning rate was not tuned manually.
 
 The final model architecture consisted of a convolution neural network with the following design:
 
-| Layer        | Depth           | Kernel Size | Stride Size  | Activation | Regularization
-| :------------- |:-------------| :-----| :-- | :-- | :-- | :-- |
-| Input (160x320x3)     |  |  |
-| `Lambda`: Normalization      |      |    |
-| `Cropping2D` ((75,25), (0,0)) |       |     |
-| `Lambda`: Resize (66x200x3)
-| Convolutional | 24| 5x5| 2x2| ELU| `l2`(0.000001)
-| Convolutional | 36| 5x5| 2x2| ELU| `l2`(0.000001)
-| Convolutional | 48| 5x5| 2x2| ELU| `l2`(0.000001)
-| Convolutional | 64| 3x3| 1x1| ELU| `l2`(0.000001)
-| Convolutional | 64| 3x3| 1x1| ELU| `l2`(0.000001)
-| `Flatten` | 
+| Layer        | Depth           | Kernel Size | Stride Size  | Activation | Regularization|
+| :------------|:----------------|:------------|:-------------|:-----------|:--------------|
+| Input (160x320x3) |
+| `Lambda`: Normalization |
+| `Cropping2D` ((75,25), (0,0)) |
+| `Lambda`: Resize (66x200x3) |
+| Convolutional | 24| 5x5| 2x2| ELU| `l2`(0.000001) 
+| Convolutional | 36| 5x5| 2x2| ELU| `l2`(0.000001) 
+| Convolutional | 48| 5x5| 2x2| ELU| `l2`(0.000001) 
+| Convolutional | 64| 3x3| 1x1| ELU| `l2`(0.000001) 
+| Convolutional | 64| 3x3| 1x1| ELU| `l2`(0.000001) 
+| `Flatten` |
 | Fully Connected | 100 | |  |ELU| `l2`(0.000001)
-| Fully Connected | 50 | |  |ELU| `l2`(0.000001)
+| Fully Connected | 50 | |  |ELU| `l2`(0.000001) 
 | Fully Connected | 10 | |  |ELU| `l2`(0.000001)
-| Fully Connected | 1 | 
+| Fully Connected | 1 |
 
 The final step was to run the simulator to see how well the car was driving around track one. At the end of the process, the vehicle is able to drive autonomously around the track without leaving the road.
 
@@ -109,6 +109,7 @@ To capture good driving behavior, I first recorded two laps on track one using c
 **Figure 2.** Center Angle Example
 
 Here are examples of center lane driving from the left angle:
+
 ![Left Angle][image2]
 
 **Figure 3.** Left Angle Example
